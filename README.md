@@ -41,7 +41,7 @@ Please follow the following steps for installating this service
 			cp functions.py /etc/cron.daily/ 
 		</pre>
 		Note: Don't make hourly or more extensive cron job, pulling much data from the API server decreases reputation
-	<li>
+	</li>
 </ol>
 
 * Please refer to Legal & Terms of Use @ https://apis.secpanel.com/legal.php  
