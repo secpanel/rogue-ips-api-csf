@@ -5,16 +5,16 @@ Python source code. This plugs in a free Rogue IPs API service to CSF on your se
 
 It will fetch the rogue IP addresses from the Secpanel network and add it to your CSF  block list.
 
-It also fetches the following information from your server:
+It fetches the following information from your server:
 <br>
  
 
 <ul>
   <li> System Information (OS, Distribution, RAM & CPU) </li>
   <li> Banned IP Addresses</li>
-<ul>
+</ul>
 
-The API server maintains a Reputatiopn Score for each server connected to it. If you  modify the script such that the information sharing from your server is stopped then the API server will change your server's Reputation Score and the service will stop for your server.
+The API server maintains a Reputation Score for each server connected to it. If you  modify the script such that the information sharing from your server is stopped then the API server will change your server's Reputation Score and the service will stop for your server.
 
 The service will be resumed when sharing of information is resumed from your server.
 
@@ -26,14 +26,14 @@ Please follow the following steps for installating this service:
 <ol>
 	<li>
 		Download the scripts. These are also available at https://apis.secpanel.com/csf/downloads/csf-0.1.1.tar
-		a wget can be done as:
+<br>		A wget can be done as:
 
 		<pre>
 			wget https://apis.secpanel.com/csf/downloads/csf-0.1.1.tar
 		</pre>
         </li>
 	<li>
-		Make run.py an executable by giving it executable permission can also be done as:
+		Make run.py an executable by a simple chmod:
 		<pre>
 			chmod +x run.py
 		</pre>
